@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/screens">
+        <file>Screens/home.qml</file>
+        <file>Screens/media.qml</file>
+        <file>Screens/qmldir</file>
+    </qresource>
+</RCC>

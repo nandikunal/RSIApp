@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Components/button.qml</file>
+        <file>Components/fullscreenbg.qml</file>
+        <file>Components/albumart.qml</file>
+        <file>Components/bottombar.qml</file>
+        <file>Components/metadata.qml</file>
+        <file>Components/minipopup.qml</file>
+        <file>Components/popup.qml</file>
+        <file>Components/progressbar.qml</file>
+        <file>Components/qmldir</file>
+        <file>Components/toastmessage.qml</file>
+        <file>Components/topbar.qml</file>
+        <file>Components/applist.qml</file>
+        <file>Components/leftsidepanel.qml</file>
+        <file>Components/rightsidepanel.qml</file>
+        <file>Screens/home.qml</file>
+        <file>Screens/media.qml</file>
+        <file>Screens/qmldir</file>
+    </qresource>
+</RCC>

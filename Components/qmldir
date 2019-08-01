@@ -1,0 +1,15 @@
+module ControlWidget
+
+AlbumArt        1.0     albumart.qml
+AppList         1.0     applist.qml
+BottomBar       1.0     bottombar.qml
+Button          1.0     button.qml
+FullScrenBG     1.0     fullscreenbg.qml
+LeftSidePanel   1.0     leftsidepanel.qml
+MetaData        1.0     metadata.qml
+MiniPopup       1.0     minipopup.qml
+Popup           1.0     popup.qml
+ProgressInfoBar 1.0     progressbar.qml
+RightSidePanel  1.0     rightsidepanel.qml
+ToastMessage    1.0     toastmessage.qml
+TopBar          1.0     topbar.qml
