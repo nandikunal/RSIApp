@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/album-art.jpg</file>
+        <file>assets/main-bg.jpg</file>
+        <file>assets/videoplayback.mp4</file>
+        <file>assets/png/backward-1.png</file>
+        <file>assets/png/backward-2.png</file>
+        <file>assets/png/backward-3.png</file>
+        <file>assets/png/backward.png</file>
+        <file>assets/png/crotchet.png</file>
+        <file>assets/png/demisemiquaver.png</file>
+        <file>assets/png/eject-1.png</file>
+        <file>assets/png/eject-2.png</file>
+        <file>assets/png/eject.png</file>
+        <file>assets/png/fast-backward-1.png</file>
+        <file>assets/png/fast-backward.png</file>
+        <file>assets/png/fast-forward-1.png</file>
+        <file>assets/png/fast-forward-2.png</file>
+        <file>assets/png/fast-forward.png</file>
+        <file>assets/png/forward-1.png</file>
+        <file>assets/png/forward-2.png</file>
+        <file>assets/png/forward.png</file>
+        <file>assets/png/hemidemisemiquarver.png</file>
+        <file>assets/png/minim.png</file>
+        <file>assets/png/music-1.png</file>
+        <file>assets/png/music.png</file>
+        <file>assets/png/pause-1.png</file>
+        <file>assets/png/pause-2.png</file>
+        <file>assets/png/pause.png</file>
+        <file>assets/png/play-1.png</file>
+        <file>assets/png/play-2.png</file>
+        <file>assets/png/play.png</file>
+        <file>assets/png/rec-1.png</file>
+        <file>assets/png/rec-2.png</file>
+        <file>assets/png/rec.png</file>
+        <file>assets/png/semibreve.png</file>
+        <file>assets/png/semiquaver.png</file>
+        <file>assets/png/stop-1.png</file>
+        <file>assets/png/stop-2.png</file>
+        <file>assets/png/stop.png</file>
+        <file>assets/png/video.png</file>
+    </qresource>
+</RCC>

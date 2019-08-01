@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/components">
+        <file>Components/button.qml</file>
+        <file>Components/fullscreenbg.qml</file>
+        <file>Components/qmldir</file>
+        <file>components.qrc</file>
+    </qresource>
+</RCC>
