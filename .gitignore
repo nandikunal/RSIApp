@@ -7,4 +7,4 @@ Makefile
 *.swp
 build/
 .git/
-
+*.user
