@@ -47,7 +47,7 @@ Window {
         }
 
         Rectangle {
-            border.color: "red"
+            //border.color: "red"
             color: "transparent"
             //border.width: 5
             width: screenWidth
@@ -60,8 +60,8 @@ Window {
     TopBar {
         color: "transparent"
         width: mainWidth; height: mainHeight/6
-        border.color: "blue"
-        border.width: 2
+        //border.color: "blue"
+        //border.width: 2
         anchors.top: parent.top
         anchors.left: parent.left
         anchors.right: parent.right
@@ -70,8 +70,8 @@ Window {
     LeftSidePanel {
         color: "transparent"
         width: mainWidth/8; height: mainHeight
-        border.color: "blue"
-        border.width: 2
+        //border.color: "blue"
+        //border.width: 2
         anchors.top: parent.top
         anchors.left: parent.left
     }
@@ -79,8 +79,8 @@ Window {
     RightSidePanel {
         color: "transparent"
         width: mainWidth/8; height: mainHeight
-        border.color: "blue"
-        border.width: 2
+        //border.color: "blue"
+        //border.width: 2
         anchors.top: parent.top
         anchors.right: parent.right
     }
@@ -88,8 +88,8 @@ Window {
     BottomBar {
         color: "transparent"
         width: mainWidth; height: mainHeight/6
-        border.color: "blue"
-        border.width: 2
+        //border.color: "blue"
+        //border.width: 2
         anchors.bottom: parent.bottom
         anchors.left: parent.left
         anchors.right: parent.right

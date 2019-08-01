@@ -2,12 +2,16 @@ import QtQuick 2.0
 
 Rectangle {
     id: rectButton
+
+    function onButtonClickRelease() {
+        rectButton.color = "light blue"
+        rectButton.border.color = "grey"
+    }
+
     objectName: "rootButton"
-    border.width: 2
-    border.color: "light grey"
-    width: 40
-    height: 32
-    radius: 3
+    border.width: 5
+    radius: 5
+    border.color: "grey"
     color: "light blue"
 
     MouseArea {
@@ -17,17 +21,19 @@ Rectangle {
         }
         onCanceled: {
             console.debug("Canceled")
+            onButtonClickRelease()
         }
         onFocusChanged: {
             console.debug("Focus Changed")
         }
         onReleased: {
             console.debug("Released")
-            rectButton.color = "light blue"
+            onButtonClickRelease()
         }
         onPressed: {
             console.debug("Pressed")
-            rectButton.color = "steelblue"
+            rectButton.color = "light blue"
+            rectButton.border.color = "red"
         }
     }
 }
