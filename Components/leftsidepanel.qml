@@ -20,11 +20,20 @@ Rectangle {
                     height: appButton.height
                     anchors.centerIn: appButton
                 }
+
+                MouseArea {
+                    anchors.fill: parent
+                    onClicked: {
+                        listView.currentIndex = index
+                        console.debug(listView.currentIndex)
+                    }
+                }
             }
         }
     }
 
     ListView {
+        id: listView
         anchors.fill: parent
         anchors.topMargin: 10
         spacing: 10
