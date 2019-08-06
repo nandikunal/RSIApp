@@ -5,10 +5,26 @@ ListModel {
 
     ListElement {
         name: "Video"
-        icon: "qrc:/assets/png/video.png"
+        icon: "qrc:/assets/apps/256/408405 - videos.png"
     }
     ListElement {
         name: "Music"
-        icon: "qrc:/assets/png/music.png"
+        icon: "qrc:/assets/apps/256/408399 - music.png"
+    }
+    ListElement {
+        name: "Weather"
+        icon: "qrc:/assets/apps/256/408406 - weather.png"
+    }
+    ListElement {
+        name: "Photos"
+        icon: "qrc:/assets/apps/256/408407 - photos.png"
+    }
+    ListElement {
+        name: "Phone"
+        icon: "qrc:/assets/apps/256/408400 - phone.png"
+    }
+    ListElement {
+        name: "Settings"
+        icon: "qrc:/assets/apps/256/408409 - settings.png"
     }
 }
