@@ -39,5 +39,17 @@
         <file>assets/png/stop-2.png</file>
         <file>assets/png/stop.png</file>
         <file>assets/png/video.png</file>
+        <file>assets/apps/256/408399 - music.png</file>
+        <file>assets/apps/256/408400 - phone.png</file>
+        <file>assets/apps/256/408401 - mail.png</file>
+        <file>assets/apps/256/408402 - camera.png</file>
+        <file>assets/apps/256/408403 - messages.png</file>
+        <file>assets/apps/256/408404 - contacts.png</file>
+        <file>assets/apps/256/408405 - videos.png</file>
+        <file>assets/apps/256/408406 - weather.png</file>
+        <file>assets/apps/256/408407 - photos.png</file>
+        <file>assets/apps/256/408408 - videocamera.png</file>
+        <file>assets/apps/256/408409 - settings.png</file>
+        <file>assets/apps/256/408410 - alarm.png</file>
     </qresource>
 </RCC>

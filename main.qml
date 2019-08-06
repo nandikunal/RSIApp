@@ -15,6 +15,7 @@ Window {
     property int screenHeight: mainHeight - mainHeight/3;
 
     property alias bgImage: mainBGImage
+    property alias mainScreenLoader: mainWindowLoader
 
     id: windowMain
     objectName: "MainScreen"
@@ -46,15 +47,16 @@ Window {
             onClicked: console.debug(mainBGImage.width + " x " + mainBGImage.height)
         }
 
-        Rectangle {
-            //border.color: "red"
-            color: "transparent"
-            //border.width: 5
-            width: screenWidth
-            height: screenHeight
-            //anchors.margins: 5
-            anchors.centerIn: mainBGImage
-        }
+// Actual Screen Area
+//        Rectangle {
+//            border.color: "red"
+//            color: "transparent"
+//            border.width: 5
+//            width: screenWidth
+//            height: screenHeight
+//            //anchors.margins: 5
+//            anchors.centerIn: mainBGImage
+//        }
     }
 
     TopBar {
@@ -93,5 +95,9 @@ Window {
         anchors.bottom: parent.bottom
         anchors.left: parent.left
         anchors.right: parent.right
+    }
+
+    Loader {
+        id: mainWindowLoader
     }
 }
