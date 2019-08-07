@@ -4,8 +4,12 @@ import "../Components"
 Rectangle {
     id: appMedia
     width: screenWidth; height: screenHeight
-    objectName: "Media"
+    objectName: "media"
     color: "transparent"
-    border.color: "maroon"
+    border.color: "orange"
     border.width: 1
+
+    AlbumArt {
+        id: mediaAlbumArt
+    }
 }
