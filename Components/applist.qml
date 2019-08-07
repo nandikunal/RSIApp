@@ -4,24 +4,20 @@ ListModel {
     id: listApp
 
     ListElement {
-        name: "Video"
-        icon: "qrc:/assets/apps/256/408405 - videos.png"
+        name: "Weather"
+        icon: "qrc:/assets/apps/256/408406 - weather.png"
     }
     ListElement {
         name: "Music"
         icon: "qrc:/assets/apps/256/408399 - music.png"
     }
     ListElement {
-        name: "Weather"
-        icon: "qrc:/assets/apps/256/408406 - weather.png"
+        name: "Video"
+        icon: "qrc:/assets/apps/256/408405 - videos.png"
     }
     ListElement {
         name: "Photos"
         icon: "qrc:/assets/apps/256/408407 - photos.png"
-    }
-    ListElement {
-        name: "Phone"
-        icon: "qrc:/assets/apps/256/408400 - phone.png"
     }
     ListElement {
         name: "Settings"

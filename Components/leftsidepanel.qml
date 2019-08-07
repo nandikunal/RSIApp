@@ -14,7 +14,7 @@ Rectangle {
             id: colComponent
             Button {
                 id: appButton
-                width: rectAppListPanel.width; height: 110
+                width: rectAppListPanel.width; height: 115
 
                 Image {
                     id: appListButtonIcon
@@ -35,9 +35,20 @@ Rectangle {
                         console.debug(listView.currentIndex)
 
                         switch(listView.currentIndex) {
-                            case 0: loadMediaScreen.source = "qrc:/Screens/media.qml";
+                            // Weather
+                            case 0: loadMediaScreen.source = "qrc:/Screens/home.qml";
                                     break;
-                            case 1: loadMediaScreen.source = "qrc:/Screens/home.qml";
+                            // Music
+                            case 1: loadMediaScreen.source = "qrc:/Screens/media.qml";
+                                    break;                                
+                            // Video
+                            case 2: loadMediaScreen.source = "qrc:/Screens/video.qml";
+                                    break;
+                            // Photos
+                            case 3: loadMediaScreen.source = "qrc:/Screens/picture.qml";
+                                    break;
+                            // Settings
+                            case 4: loadMediaScreen.source = "qrc:/Screens/settings.qml";
                                     break;
                         }
                     }
