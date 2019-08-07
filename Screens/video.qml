@@ -1,10 +1,10 @@
-import QtQuick 2.9
+import QtQuick 2.0
 
 Rectangle {
     id: appHome
     //width: screenWidth; height: screenHeight
-    objectName: "home"
+    objectName: "video"
     color: "transparent"
-    border.color: "purple"
+    border.color: "dark red"
     border.width: 1
 }
