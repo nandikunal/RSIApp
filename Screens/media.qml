@@ -3,7 +3,7 @@ import "../Components"
 
 Rectangle {
     id: appMedia
-    width: screenWidth; height: screenHeight
+    //width: screenWidth; height: screenHeight
     objectName: "media"
     color: "transparent"
     border.color: "orange"
@@ -11,5 +11,13 @@ Rectangle {
 
     AlbumArt {
         id: mediaAlbumArt
+    }
+
+    MetaData {
+        id: mediaMetaData
+        anchors.top: parent.top
+        anchors.left: mediaAlbumArt.right
+        anchors.topMargin: 10
+        anchors.leftMargin: 20
     }
 }

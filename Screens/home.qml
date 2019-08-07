@@ -2,7 +2,7 @@ import QtQuick 2.9
 
 Rectangle {
     id: appHome
-    width: screenWidth; height: screenHeight
+    //width: screenWidth; height: screenHeight
     objectName: "home"
     color: "transparent"
     border.color: "purple"
