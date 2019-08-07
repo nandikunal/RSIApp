@@ -41,6 +41,9 @@ Item {
                             // Photos
                             case 3: loadMediaScreen.source = "qrc:/Screens/picture.qml";
                                     break;
+                            // Photos
+                            case 3: loadMediaScreen.source = "qrc:/Screens/navigation.qml";
+                                    break;
                             // Settings
                             case 4: loadMediaScreen.source = "qrc:/Screens/settings.qml";
                                     break;

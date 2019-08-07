@@ -16,11 +16,15 @@ ListModel {
         icon: "qrc:/assets/apps/256/408405 - videos.png"
     }
     ListElement {
-        name: "Photos"
+        name: "Photo"
         icon: "qrc:/assets/apps/256/408407 - photos.png"
     }
     ListElement {
-        name: "Settings"
+        name: "Map"
+        icon: "qrc:/assets/apps/256/408411 - map.png"
+    }
+    ListElement {
+        name: "Setting"
         icon: "qrc:/assets/apps/256/408409 - settings.png"
     }
 }

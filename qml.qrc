@@ -21,5 +21,6 @@
         <file>Screens/video.qml</file>
         <file>Screens/picture.qml</file>
         <file>Screens/settings.qml</file>
+        <file>Screens/navigation.qml</file>
     </qresource>
 </RCC>
