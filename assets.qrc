@@ -51,5 +51,6 @@
         <file>assets/apps/256/408408 - videocamera.png</file>
         <file>assets/apps/256/408409 - settings.png</file>
         <file>assets/apps/256/408410 - alarm.png</file>
+        <file>assets/apps/256/408411 - map.png</file>
     </qresource>
 </RCC>

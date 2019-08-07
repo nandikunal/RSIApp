@@ -18,5 +18,9 @@
         <file>Screens/home.qml</file>
         <file>Screens/media.qml</file>
         <file>Screens/qmldir</file>
+        <file>Screens/video.qml</file>
+        <file>Screens/picture.qml</file>
+        <file>Screens/settings.qml</file>
+        <file>Screens/navigation.qml</file>
     </qresource>
 </RCC>

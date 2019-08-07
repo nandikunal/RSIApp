@@ -1,10 +1,10 @@
-import QtQuick 2.9
+import QtQuick 2.0
 
 Rectangle {
-    id: appHome
+    id: appNavigation
     //width: screenWidth; height: screenHeight
-    objectName: "home"
+    objectName: "navigation"
     color: "transparent"
-    border.color: "purple"
+    border.color: "brown"
     border.width: 1
 }
