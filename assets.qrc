@@ -1,56 +1,42 @@
 <RCC>
     <qresource prefix="/">
         <file>assets/album-art.jpg</file>
-        <file>assets/main-bg.jpg</file>
         <file>assets/videoplayback.mp4</file>
-        <file>assets/png/backward-1.png</file>
-        <file>assets/png/backward-2.png</file>
-        <file>assets/png/backward-3.png</file>
-        <file>assets/png/backward.png</file>
-        <file>assets/png/crotchet.png</file>
-        <file>assets/png/demisemiquaver.png</file>
-        <file>assets/png/eject-1.png</file>
-        <file>assets/png/eject-2.png</file>
-        <file>assets/png/eject.png</file>
-        <file>assets/png/fast-backward-1.png</file>
-        <file>assets/png/fast-backward.png</file>
-        <file>assets/png/fast-forward-1.png</file>
-        <file>assets/png/fast-forward-2.png</file>
-        <file>assets/png/fast-forward.png</file>
-        <file>assets/png/forward-1.png</file>
-        <file>assets/png/forward-2.png</file>
-        <file>assets/png/forward.png</file>
-        <file>assets/png/hemidemisemiquarver.png</file>
-        <file>assets/png/minim.png</file>
-        <file>assets/png/music-1.png</file>
-        <file>assets/png/music.png</file>
-        <file>assets/png/pause-1.png</file>
-        <file>assets/png/pause-2.png</file>
-        <file>assets/png/pause.png</file>
-        <file>assets/png/play-1.png</file>
-        <file>assets/png/play-2.png</file>
-        <file>assets/png/play.png</file>
-        <file>assets/png/rec-1.png</file>
-        <file>assets/png/rec-2.png</file>
-        <file>assets/png/rec.png</file>
-        <file>assets/png/semibreve.png</file>
-        <file>assets/png/semiquaver.png</file>
-        <file>assets/png/stop-1.png</file>
-        <file>assets/png/stop-2.png</file>
-        <file>assets/png/stop.png</file>
-        <file>assets/png/video.png</file>
-        <file>assets/apps/256/408399 - music.png</file>
-        <file>assets/apps/256/408400 - phone.png</file>
-        <file>assets/apps/256/408401 - mail.png</file>
-        <file>assets/apps/256/408402 - camera.png</file>
-        <file>assets/apps/256/408403 - messages.png</file>
-        <file>assets/apps/256/408404 - contacts.png</file>
-        <file>assets/apps/256/408405 - videos.png</file>
-        <file>assets/apps/256/408406 - weather.png</file>
-        <file>assets/apps/256/408407 - photos.png</file>
-        <file>assets/apps/256/408408 - videocamera.png</file>
-        <file>assets/apps/256/408409 - settings.png</file>
-        <file>assets/apps/256/408410 - alarm.png</file>
-        <file>assets/apps/256/408411 - map.png</file>
+        <file>assets/apps/408399 - music.png</file>
+        <file>assets/apps/408400 - phone.png</file>
+        <file>assets/apps/408401 - mail.png</file>
+        <file>assets/apps/408402 - camera.png</file>
+        <file>assets/apps/408403 - messages.png</file>
+        <file>assets/apps/408404 - contacts.png</file>
+        <file>assets/apps/408405 - videos.png</file>
+        <file>assets/apps/408406 - weather.png</file>
+        <file>assets/apps/408407 - photos.png</file>
+        <file>assets/apps/408408 - videocamera.png</file>
+        <file>assets/apps/408409 - settings.png</file>
+        <file>assets/apps/408410 - alarm.png</file>
+        <file>assets/apps/408411 - home.png</file>
+        <file>assets/apps/408411 - map.png</file>
+        <file>assets/screen_bg_1.jpg</file>
+        <file>assets/screen_bg_2.jpg</file>
+        <file>assets/screen_bg_3.jpg</file>
+        <file>assets/apps/small_icons/iconfinder_1-icon-music-08_3694738.png</file>
+        <file>assets/apps/small_icons/iconfinder_high_volume_172479.png</file>
+        <file>assets/apps/small_icons/iconfinder_home_126572.png</file>
+        <file>assets/apps/small_icons/iconfinder_icons_mic_1564514.png</file>
+        <file>assets/apps/small_icons/iconfinder_low_volume_172499.png</file>
+        <file>assets/apps/small_icons/iconfinder_medium_volume_172501.png</file>
+        <file>assets/apps/small_icons/iconfinder_mute_172512.png</file>
+        <file>assets/apps/small_icons/iconfinder_playlist_3671837.png</file>
+        <file>assets/apps/small_icons/iconfinder_reply_1608813.png</file>
+        <file>assets/player-controls/1872767 - arrows blue mix mus.png</file>
+        <file>assets/player-controls/1872768 - again arrow blue ci.png</file>
+        <file>assets/player-controls/1872769 - arrow blue control .png</file>
+        <file>assets/player-controls/1872770 - blue control music .png</file>
+        <file>assets/player-controls/1872771 - blue melody music n.png</file>
+        <file>assets/player-controls/1872772 - arrow blue forward .png</file>
+        <file>assets/player-controls/1872773 - arrow arrows blue f.png</file>
+        <file>assets/player-controls/1872774 - arrow arrows back b.png</file>
+        <file>assets/player-controls/1872775 - arrow back backward.png</file>
+        <file>assets/player-controls/1872776 - blue music pause pl.png</file>
     </qresource>
 </RCC>

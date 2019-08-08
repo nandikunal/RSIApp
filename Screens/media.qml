@@ -20,4 +20,8 @@ Rectangle {
         anchors.topMargin: 10
         anchors.leftMargin: 20
     }
+
+    ProgressInfoBar {
+        id: playerControls
+    }
 }

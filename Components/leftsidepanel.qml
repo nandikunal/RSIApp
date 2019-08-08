@@ -13,7 +13,7 @@ Item {
             id: colComponent
             Button {
                 id: appButton
-                width: leftBarPanel.width; height: 115
+                width: leftBarPanel.width - 10; height: 110
 
                 Image {
                     id: appListButtonIcon
@@ -57,7 +57,7 @@ Item {
     ListView {
         id: listView
         anchors.fill: parent
-        anchors.topMargin: 10
+        anchors {topMargin: 5; bottomMargin: 5; leftMargin: 5; rightMargin: 5}
         spacing: 10
         model: AppList {
             id: appListElement

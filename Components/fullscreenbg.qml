@@ -9,6 +9,8 @@ Item {
         id: imgBG
         width: bgImageWidth
         height: bgImageHeight
-        source: "qrc:/assets/main-bg.jpg"
+        //source: "qrc:/assets/screen_bg_1.jpg"
+        //source: "qrc:/assets/screen_bg_2.jpg"
+        source: "qrc:/assets/screen_bg_3.jpg"
     }
 }
