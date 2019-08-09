@@ -8,6 +8,7 @@ FullScrenBG     1.0     fullscreenbg.qml
 LeftSidePanel   1.0     leftsidepanel.qml
 MetaData        1.0     metadata.qml
 MiniPopup       1.0     minipopup.qml
+PlayerControls  1.0     playercontrols.qml
 Popup           1.0     popup.qml
 ProgressInfoBar 1.0     progressbar.qml
 RightSidePanel  1.0     rightsidepanel.qml
