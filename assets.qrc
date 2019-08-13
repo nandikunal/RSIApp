@@ -38,8 +38,5 @@
         <file>assets/player-controls/rewind.png</file>
         <file>assets/player-controls/shuffle.png</file>
         <file>assets/player-controls/stop.png</file>
-        <file>componentmediaui.cpp</file>
-        <file>componentmediaui.h</file>
-        <file>main.cpp</file>
     </qresource>
 </RCC>

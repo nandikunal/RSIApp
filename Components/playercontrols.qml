@@ -1,7 +1,25 @@
 import QtQuick 2.0
+import QtMultimedia 5.9
 
 Item {
     property bool isPlaying: false
+
+    Audio {
+        id: playMusic
+        source: "qrc:/assets/videoplayback.mp4"
+
+        onPositionChanged: {
+            console.log("position: " + position)
+        }
+
+        onPlaying: {
+            isPlaying = true;
+        }
+
+        onPaused: {
+            isPlaying = false;
+        }
+    }
 
     Row {
         spacing: 2
@@ -35,6 +53,17 @@ Item {
             Image {
                 anchors.fill: parent
                 source: isPlaying ? "qrc:/assets/player-controls/pause.png" : "qrc:/assets/player-controls/play.png"
+            }
+
+            MouseArea {
+                anchors.fill: btnPlayPause
+                onClicked: {
+                    if(isPlaying) {
+                        playMusic.pause();
+                    } else {
+                        playMusic.play();
+                    }
+                }
             }
         }
         Button {
