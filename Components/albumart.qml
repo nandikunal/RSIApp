@@ -7,10 +7,6 @@ Rectangle {
     border.color: "grey"
     border.width: 5
     radius: 5
-    anchors.left: parent.left
-    anchors.top: parent.top
-    anchors.topMargin: 10
-    anchors.leftMargin: 10
 
     Image {
         anchors.fill: parent

@@ -28,15 +28,15 @@
         <file>assets/apps/small_icons/iconfinder_mute_172512.png</file>
         <file>assets/apps/small_icons/iconfinder_playlist_3671837.png</file>
         <file>assets/apps/small_icons/iconfinder_reply_1608813.png</file>
-        <file>assets/player-controls/1872767 - arrows blue mix mus.png</file>
-        <file>assets/player-controls/1872768 - again arrow blue ci.png</file>
-        <file>assets/player-controls/1872769 - arrow blue control .png</file>
-        <file>assets/player-controls/1872770 - blue control music .png</file>
-        <file>assets/player-controls/1872771 - blue melody music n.png</file>
-        <file>assets/player-controls/1872772 - arrow blue forward .png</file>
-        <file>assets/player-controls/1872773 - arrow arrows blue f.png</file>
-        <file>assets/player-controls/1872774 - arrow arrows back b.png</file>
-        <file>assets/player-controls/1872775 - arrow back backward.png</file>
-        <file>assets/player-controls/1872776 - blue music pause pl.png</file>
+        <file>assets/player-controls/fastforward.png</file>
+        <file>assets/player-controls/music.png</file>
+        <file>assets/player-controls/next.png</file>
+        <file>assets/player-controls/pause.png</file>
+        <file>assets/player-controls/play.png</file>
+        <file>assets/player-controls/previous.png</file>
+        <file>assets/player-controls/repeat.png</file>
+        <file>assets/player-controls/rewind.png</file>
+        <file>assets/player-controls/shuffle.png</file>
+        <file>assets/player-controls/stop.png</file>
     </qresource>
 </RCC>

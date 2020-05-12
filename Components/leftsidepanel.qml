@@ -1,4 +1,5 @@
 import QtQuick 2.0
+import QtGraphicalEffects 1.0
 
 Item {
     id: leftBarPanel
@@ -21,6 +22,12 @@ Item {
                     anchors.margins: 10
                     anchors.fill: appButton
                 }
+
+//                ColorOverlay {
+//                    anchors.fill: appListButtonIcon
+//                    source: appListButtonIcon
+//                    color: "#800000ff"
+//                }
 
                 MouseArea {
                     anchors.fill: parent
@@ -67,9 +74,8 @@ Item {
 
     Loader {
         id: loadMediaScreen
-        anchors.leftMargin: 10
-        anchors.left: leftBarPanel.right
-        anchors.verticalCenter: parent.verticalCenter
-        width: screenWidth - 20; height: screenHeight
+        anchors {left: leftBarPanel.right; verticalCenter: parent.verticalCenter}
+        width: screenWidth; height: screenHeight
+        opacity: 10
     }
 }

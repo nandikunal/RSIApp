@@ -22,11 +22,11 @@ Rectangle {
             maximumValue: 0.00
             value: 0
             height: 15
-            width: 350
+            width: 400
         }
 
         Text {
-            text: songDuration.toString().substring(0,4)
+            text: "0:00"//songDuration.toString().substring(0,4)
             color: "red"
         }
     }

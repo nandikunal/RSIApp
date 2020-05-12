@@ -11,12 +11,13 @@ Rectangle {
 
 
     Column {
-        anchors.centerIn: parent
-        spacing: 5
+        anchors.top: parent.top
+        anchors.horizontalCenter: parent.horizontalCenter
+        spacing: 10
 
         Text {
             id: txtSongName
-            text: "Twinkle Twinkle Little Star..."
+            text: "Twinkle Twinkle Little Star"
             color: "grey"
             font.pointSize: 14
         }

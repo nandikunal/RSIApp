@@ -22,5 +22,6 @@
         <file>Screens/picture.qml</file>
         <file>Screens/settings.qml</file>
         <file>Screens/navigation.qml</file>
+        <file>Components/playercontrols.qml</file>
     </qresource>
 </RCC>
