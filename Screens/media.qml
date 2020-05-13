@@ -6,8 +6,8 @@ Rectangle {
     //width: screenWidth; height: screenHeight
     objectName: "media"
     color: "transparent"
-    border.color: "orange"
-    border.width: 1
+//    border.color: "orange"
+//    border.width: 1
 
     Column {
         id: colMediaScreen
@@ -16,8 +16,8 @@ Rectangle {
             id: songInfo
             width: screenWidth; height: screenHeight/2 + screenHeight/4
             color: "transparent"
-            border.color: "yellow"
-            border.width: 1
+//            border.color: "yellow"
+//            border.width: 1
             AlbumArt {
                 id: mediaAlbumArt
                 anchors.left: parent.left
@@ -44,8 +44,8 @@ Rectangle {
             //anchors.bottom: parent.bottom
 
             color: "transparent"
-            border.color: "green"
-            border.width: 1
+//            border.color: "green"
+//            border.width: 1
 
             ProgressInfoBar {
                 id: progressBar

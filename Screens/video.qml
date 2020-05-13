@@ -7,8 +7,8 @@ Rectangle {
     //width: screenWidth; height: screenHeight
     objectName: "video"
     color: "transparent"
-    border.color: "dark red"
-    border.width: 1
+//    border.color: "dark red"
+//    border.width: 1
 
     MediaPlayer {
         id: player

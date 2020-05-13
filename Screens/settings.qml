@@ -5,6 +5,6 @@ Rectangle {
     //width: screenWidth; height: screenHeight
     objectName: "settings"
     color: "transparent"
-    border.color: "violet"
-    border.width: 1
+//    border.color: "violet"
+//    border.width: 1
 }
